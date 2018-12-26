@@ -287,17 +287,17 @@
             If you've been to one of our restaurants, you've seen - and tasted - what keeps our customers coming back for more. Perfect materials and freshly baked food
           </p>
         </div>
-        <form class="reservations-form">
+        <form class="reservations-form" >
           <fieldset class="reservations-form-wrap">
             <legend class="sr">Contact Us</legend>
             <div class="clear">
               <div class="col-6-m pad-top-10 pad-bottom-10">
                 <label class="block strong" for="name">Name</label>
-                <input id="choose" name="i_like" name="full-name" class="field" id="name" type="text" placeholder="your name *">
+                <input id="choose" name="i_like" required name="full-name" class="field" id="name" type="text" placeholder="your name *">
               </div>
               <div class="col-6-m pad-top-10 pad-bottom-10">
-                <label class="block strong" for="email">Email</label>
-                <input name="email" class="field" id="email" type="email" placeholder="your email *">
+                <label class="block strong" for="email" id="choose" name="i_like" >Email</label>
+                <input name="email" class="field"  type="email" placeholder="your email *">
               </div>
             </div>
             <div class="clear">
@@ -310,7 +310,7 @@
               <div class="col-6-m pad-top-10 pad-bottom-10">
                 <label class="block strong" for="party-size">Party size</label>
                 <span class="select">
-                  <select class="field" name="party-size" id="party-size">
+                  <select class="field" name="party-size"  onclick="myFunction()">
                     <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
@@ -319,7 +319,7 @@
               </div>
             </div>
             <div class="text-center">
-              <input type="submit" class="button reservations-submit" value="Book now!" onclick="open">
+              <input type="submit" class="button reservations"  value="Submit" id="submit">
             </div>
           </fieldset>
         </form>
@@ -368,10 +368,10 @@
     </div>
   </div>
 </div>
-
-<script src="js/wow/wow.js"></script>
-<script src="js/vendor/webfontloader.js"></script>
-<script src="js/default.js"></script>
+<script src="js/wow.js/script.js"></script>
+<script src="js/wow.js/wow.js"></script>
+<script src="js/wow.js/default.js"></script>
+<script src="js/wow.js/animation.js.js"></script>
 
 </body>
 </html>
